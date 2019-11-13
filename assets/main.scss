@@ -1,0 +1,27 @@
+---
+---
+@import "minima";
+
+.resource-wrapper {
+  display: flex;
+  color: red;
+
+}
+
+//!-- comment this is how wide the column is
+.resource {
+  flex:8
+}
+
+.description {
+  flex: 4;
+  padding-left: 1em;
+}
+
+.wrapper {
+  max-width: 80%;
+}
+
+
+
+//!-- comment: if you just did div you would be changing all the divs. Instead we are going to style the page so that certain text works a certain way
